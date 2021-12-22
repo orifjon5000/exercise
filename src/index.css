@@ -4,10 +4,38 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+display: flex;
+justify-content: center;
+align-items: center;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(199, 193, 193);
+  list-style: none;
+  border-radius: 8px;
+  margin-top:5px;
+
+  padding: 4px 10px;
+  width:400px;
+}
+.li{
+}
+
+.btn{
+  outline: none;
+  background-color:rgba(6, 184, 124, 0.76);
+  width: 70px;
+  border-radius: 8px;
+  color:white;
+  border:none;
 }
