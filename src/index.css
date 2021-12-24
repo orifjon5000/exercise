@@ -28,7 +28,15 @@ code {
   padding: 4px 10px;
   width:400px;
 }
-.li{
+.isinfo{
+  border: 1px solid #C7C1C1;
+  margin: 5px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all ease-in 5s;
 }
 
 .btn{
