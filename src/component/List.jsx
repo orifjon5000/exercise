@@ -16,6 +16,7 @@ export default function List({ user, onDelete }) {
       {isInfo && (
         <div>
           <p>E-mail:{user.email}</p>
+          <p>adress:{user.adress}</p>
         </div>
       )}
     </div>
