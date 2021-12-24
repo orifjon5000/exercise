@@ -6,6 +6,7 @@ export default function List({ user, onDelete }) {
     setIsInfo(!isInfo);
   };
   return (
+    <>
     <div className="ul" key={user.id}>
       <div className="li" onClick={setInfo}>
         {user.name}
@@ -13,12 +14,13 @@ export default function List({ user, onDelete }) {
       <button className="btn" onClick={() => onDelete(user.id)}>
         delete{" "}
       </button>
-      {isInfo && (
-        <div>
+      
+    </div>{isInfo && (
+        <div className="">
           <p>E-mail:{user.email}</p>
           <p>adress:{user.adress}</p>
         </div>
       )}
-    </div>
+    </>
   );
 }
