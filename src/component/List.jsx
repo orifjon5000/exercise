@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function List({ user, onDelete }) {
-  const [isInfo, setIsInfo] = useState(true);
+  const [isInfo, setIsInfo] = useState(false);
   const setInfo = () => {
     setIsInfo(!isInfo);
   };
